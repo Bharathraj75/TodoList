@@ -1,9 +1,3 @@
-
-function double(){
-    console.log("Double clicked");
-}
-
-
 const todolist =document.getElementById('todotext');
 const todoUl=document.getElementById('todoul');
 function addtask(){
@@ -31,7 +25,5 @@ function addtask(){
             const li = a.target.parentElement;
             li.parentElement.removeChild(li);
         });
-    }
-    
-   
+    }  
 }
