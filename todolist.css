@@ -1,1 +1,24 @@
+body{
+    display: grid;
+    position: relative;
+    background-color: rgb(209, 140, 51);
+    align-items: center;
+}
+.container{
+    display: flex;
+    position: relative;
+    background-color: rgb(43, 226, 150);
+    width: 400px;
+    height: 600px;
+    
+}
+#btn{
+    
+    background-color: rgb(85, 18, 160);
+    
+}
+.list-section{
+    align-items: center;
+    right:10px;
+}
 
