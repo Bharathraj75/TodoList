@@ -7,7 +7,7 @@ function double(){
 const todolist =document.getElementById('todotext');
 const todoUl=document.getElementById('todoul');
 function addtask(){
-    if(todolist.value.trim() === " ")
+    if(todolist.value.trim() === "")
 
     {
         alert("Enter Something in list");
